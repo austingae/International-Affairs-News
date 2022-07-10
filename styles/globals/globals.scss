@@ -1,0 +1,44 @@
+$primary-font: Montserrat;
+$light-blue-color: rgb(139,217,248);
+
+* {
+  box-sizing: content-box;
+  margin: 0rem;
+  font-family: $primary-font;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  width: auto;
+  padding: 1rem 1rem 1rem 1rem;
+
+  .nav__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .nav__website-name {
+    font-weight: 500;
+    font-size: 1.25rem;
+
+    margin-left: 0.69rem;
+  }
+
+  .nav__link {
+    cursor: pointer;
+  }
+
+  .nav__link:hover {
+    color: $light-blue-color;
+  }
+
+  .nav__link--margin-right {
+    margin-right: 1rem;
+  }
+
+
+}
