@@ -38,6 +38,12 @@ export default function Home() {
 
 
 /*
-Responsive
-Image Slider - Looks good.
+Responsive from 375px to 1440px
+Navigation Bar - looks good.
+Country Logo Slider - looks good.
+Image Slider - looks good.
+International Affairs News Categories Title - looks good.
+
+
+At 1200px, I want the two categories side by side. 
 */

@@ -1,14 +1,16 @@
 import '../styles/globals/globals.css'
-import Image from 'next/image'
+import Link from 'next/link'
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
       <nav className='nav'>
-        <div className='nav__container'>
-          <img className='nav__website-logo' src='/images/logo/logo.png' />
-          <h3 className='nav__website-name'>Elliott</h3>
-        </div>
+        <Link href='/'>
+          <div className='nav__container'>
+            <img className='nav__website-logo' src='/images/logo/logo.png' />
+            <h3 className='nav__website-name'>Elliott</h3>
+          </div>
+        </Link>
         <div className='nav__container'>
           <a className='nav__link nav__link--margin-right'
           onClick={() => {

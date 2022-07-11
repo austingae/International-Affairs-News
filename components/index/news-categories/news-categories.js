@@ -11,19 +11,21 @@ const NewsCategories = () => {
       <h3 className={styles.title}>International Affairs News Categories</h3>
 
       {/* News Categories by Region */}
-      <h4 className={styles.categorySectionTitle}>Regions</h4>
-      <section className={styles.newsRegionCategoriesSection}>
-        <NewsCategoryRegionTemplate regionLogo='/images/news-categories/regions/na.png' regionName='North America'/>
-        <NewsCategoryRegionTemplate regionLogo='/images/news-categories/regions/sa.png' regionName='South America'/>
-        <NewsCategoryRegionTemplate regionLogo='/images/news-categories/regions/eu.png' regionName='Europe'/>
-        <NewsCategoryRegionTemplate regionLogo='/images/news-categories/regions/me.png' regionName='Middle East'/>
-        <NewsCategoryRegionTemplate regionLogo='/images/news-categories/regions/af.png' regionName='Africa'/>
-        <NewsCategoryRegionTemplate regionLogo='/images/news-categories/regions/as.png' regionName='Asia'/>
+      <section>
+        <h4 className={styles.categoryTitle}>Regions</h4>
+        <div className={styles.regionSection}>
+          <NewsCategoryRegionTemplate regionLogo='/images/news-categories/regions/na.png' regionName='North America'/>
+          <NewsCategoryRegionTemplate regionLogo='/images/news-categories/regions/sa.png' regionName='South America'/>
+          <NewsCategoryRegionTemplate regionLogo='/images/news-categories/regions/eu.png' regionName='Europe'/>
+          <NewsCategoryRegionTemplate regionLogo='/images/news-categories/regions/me.png' regionName='Middle East'/>
+          <NewsCategoryRegionTemplate regionLogo='/images/news-categories/regions/af.png' regionName='Africa'/>
+          <NewsCategoryRegionTemplate regionLogo='/images/news-categories/regions/as.png' regionName='Asia'/>
+        </div>
       </section>
 
       {/* News Categories by Topics */}
-      <h4 className={styles.categorySectionTitle}>Topics</h4>
-      <section className={styles.newsTopicCategoriesSection}>
+      <h4 className={styles.categoryTitle}>Topics</h4>
+      <section className={styles.topicSection}>
         <NewsCategoryTopicTemplate 
         topicImage='/images/news-categories/topics/us-china-competition.jpg' 
         topicName='US-China Competition'

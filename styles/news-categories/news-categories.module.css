@@ -1,14 +1,18 @@
 .title {
   padding: 1rem 2rem 1rem 2rem;
+  margin-top: 1rem;
   text-align: center;
+  font-size: 1rem;
   font-weight: 500;
 }
 
-.categorySectionTitle {
-  padding: 1rem 2rem 1rem 2rem;
+.categoryTitle {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
-.newsRegionCategoriesSection {
+.regionSection {
   display: grid;
   grid-template-columns: 180px 180px;
   grid-template-rows: auto;
@@ -16,7 +20,50 @@
   row-gap: 20px;
 }
 
-.newsTopicCategoriesSection {
+.topicSection {
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 500px) {
+  .title {
+    font-size: 1.25rem;
+  }
+  .categoryTitle {
+    font-size: 1.1rem;
+  }
+  .regionSection {
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+  }
+}
+@media screen and (min-width: 725px) {
+  .title {
+    font-size: 1.75rem;
+    margin-top: 3rem;
+  }
+  .categoryTitle {
+    font-size: 1.25rem;
+  }
+  .regionSection {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    -moz-column-gap: 50px;
+         column-gap: 50px;
+  }
+}
+@media screen and (min-width: 850px) {
+  .regionSection {
+    display: grid;
+    grid-template-columns: 250px 250px;
+    -moz-column-gap: 100px;
+         column-gap: 100px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .title {
+    font-size: 2rem;
+    margin-top: 5rem;
+  }
 }/*# sourceMappingURL=news-categories.module.css.map */

@@ -19,11 +19,13 @@
 .nav .nav__website-logo {
   width: 50px;
   height: 50px;
+  cursor: pointer;
 }
 .nav .nav__website-name {
   font-weight: 500;
   font-size: 1.25rem;
   margin-left: 0.69rem;
+  cursor: pointer;
 }
 .nav .nav__link {
   cursor: pointer;

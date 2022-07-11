@@ -5,12 +5,8 @@ import styles from '../../../styles/news-categories/news-category-region-templat
 
 const NewsCategoryRegionTemplate = ({regionLogo, regionName}) => {
   return (
-    <div className={styles.newsCategoryRegionTemplate}>
-      <Image 
-      src={regionLogo}
-      width='50px'
-      height='50px'
-      />
+    <div className={styles.regionTemplate}>
+      <img className={styles.regionLogo}src={regionLogo} />
       <p className={styles.regionName}>{regionName}</p>
   </div>
   )

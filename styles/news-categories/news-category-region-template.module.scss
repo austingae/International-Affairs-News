@@ -1,17 +1,36 @@
 $light-blue-color: rgb(139,217,248);
 
-.newsCategoryRegionTemplate {
+.regionTemplate {
   display: flex;
   flex-direction: row;
   align-items: center;
 
   cursor: pointer;
 
+  .regionLogo {
+    width: 50px;
+    height: 50px;
+  }
+
   .regionName {
     margin-left: 1rem;
   }
+
+  .regionName:hover {
+    color: $light-blue-color;
+  }
 }
 
-.newsCategoryRegionTemplate:hover {
-  color: $light-blue-color;
+@media screen and (min-width: 725px) {
+  .regionTemplate {
+    .regionLogo {
+      width: 65px;
+      height: 65px;
+    }
+
+    .regionName {
+      font-size: 1.15rem;
+    }
+  }
 }
+
