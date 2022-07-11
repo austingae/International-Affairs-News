@@ -36,3 +36,9 @@ export default function Home() {
   )
 }
 
+
+/*
+Responsive
+375px - Looks good.
+768px 
+*/

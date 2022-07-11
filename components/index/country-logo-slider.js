@@ -14,7 +14,6 @@ const CountryLogoSlider = () => {
         options={ {
           //Focus Center Splide
           type: 'loop',
-          perPage: 6,
           focus: 'center',
 
           //No Arrows
@@ -28,6 +27,35 @@ const CountryLogoSlider = () => {
           interval: 3000,
           rewind: true,
 
+          breakpoints: {
+            500: {
+              perPage: 6,
+            },
+            750: {
+              perPage: 7,
+            },
+            850: {
+              perPage: 8,
+            },
+            950: {
+              perPage: 9,
+            },
+            1050: {
+              perPage: 10,
+            },
+            1150: {
+              perPage: 12,
+            },
+            1250: {
+              perPage: 13,
+            },
+            1350: {
+              perPage: 14,
+            },
+            1450: {
+              perPage: 15,
+            }
+          }
         }}
         >
         <SplideSlide>
@@ -79,8 +107,63 @@ const CountryLogoSlider = () => {
           <img className={styles.countryLogo} src="/images/country-logo-slider/16.png"/>
         </SplideSlide>
         <SplideSlide>
-          <img className={styles.countryLogo} src="/images/country-logo-slider/17.png"/>
+          <img className={styles.countryLogo} src="/images/country-logo-slider/18.png"/>
         </SplideSlide>
+        <SplideSlide>
+          <img className={styles.countryLogo} src="/images/country-logo-slider/19.png"/>
+        </SplideSlide>
+        <SplideSlide>
+          <img className={styles.countryLogo} src="/images/country-logo-slider/20.png"/>
+        </SplideSlide>
+        <SplideSlide>
+          <img className={styles.countryLogo} src="/images/country-logo-slider/21.png"/>
+        </SplideSlide>
+        <SplideSlide>
+          <img className={styles.countryLogo} src="/images/country-logo-slider/22.png"/>
+        </SplideSlide>
+        <SplideSlide>
+          <img className={styles.countryLogo} src="/images/country-logo-slider/23.png"/>
+        </SplideSlide>
+        <SplideSlide>
+          <img className={styles.countryLogo} src="/images/country-logo-slider/24.png"/>
+        </SplideSlide>
+        <SplideSlide>
+          <img className={styles.countryLogo} src="/images/country-logo-slider/25.png"/>
+        </SplideSlide>
+        <SplideSlide>
+          <img className={styles.countryLogo} src="/images/country-logo-slider/26.png"/>
+        </SplideSlide>
+        <SplideSlide>
+          <img className={styles.countryLogo} src="/images/country-logo-slider/27.png"/>
+        </SplideSlide>
+        <SplideSlide>
+          <img className={styles.countryLogo} src="/images/country-logo-slider/28.png"/>
+        </SplideSlide>
+        <SplideSlide>
+          <img className={styles.countryLogo} src="/images/country-logo-slider/29.png"/>
+        </SplideSlide>
+        <SplideSlide>
+          <img className={styles.countryLogo} src="/images/country-logo-slider/30.png"/>
+        </SplideSlide>
+        <SplideSlide>
+          <img className={styles.countryLogo} src="/images/country-logo-slider/31.png"/>
+        </SplideSlide>
+        <SplideSlide>
+          <img className={styles.countryLogo} src="/images/country-logo-slider/32.png"/>
+        </SplideSlide>
+        <SplideSlide>
+          <img className={styles.countryLogo} src="/images/country-logo-slider/33.png"/>
+        </SplideSlide>
+        <SplideSlide>
+          <img className={styles.countryLogo} src="/images/country-logo-slider/34.png"/>
+        </SplideSlide>
+        <SplideSlide>
+          <img className={styles.countryLogo} src="/images/country-logo-slider/35.png"/>
+        </SplideSlide>
+        <SplideSlide>
+          <img className={styles.countryLogo} src="/images/country-logo-slider/36.png"/>
+        </SplideSlide>
+
         
       </Splide>
     </>
