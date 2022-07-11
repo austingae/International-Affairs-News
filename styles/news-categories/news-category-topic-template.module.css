@@ -1,0 +1,15 @@
+.newsCategoryTopicTemplate {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+.newsCategoryTopicTemplate .topicName {
+  width: 220px;
+  margin-left: 0.7rem;
+}
+.newsCategoryTopicTemplate .topicName:hover {
+  color: rgb(139, 217, 248);
+}/*# sourceMappingURL=news-category-topic-template.module.css.map */

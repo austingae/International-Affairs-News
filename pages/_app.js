@@ -14,7 +14,10 @@ function MyApp({ Component, pageProps }) {
           <h3 className='nav__website-name'>Elliott</h3>
         </div>
         <div className='nav__container'>
-          <a className='nav__link nav__link--margin-right'>Categories</a>
+          <a className='nav__link nav__link--margin-right'
+          onClick={() => {
+            document.getElementById('news-categories').scrollIntoView({behavior: "smooth"});
+          }}>Categories</a>
           <a className='nav__link'>About Us</a>
         </div>
       </nav>
@@ -22,9 +25,6 @@ function MyApp({ Component, pageProps }) {
       <Component {...pageProps} />
     </>
   )
-  
-  
-
 }
 
 export default MyApp
@@ -44,6 +44,10 @@ HTML & CSS & Javascript Approach:
   - Parent Div's Width = Child Div's Width+Padding+Border+Margin
   - Parent Div's Width = Block Element's Width+Padding+Border+Margin
   - However, Parent Div's Width != Inline Element's Width+Padding+Border+Margin
-  5) Javascript 
+  5) Javascript - Yes. 
+*/
+
+/*
+scrollIntoView(): https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoView
 */
 

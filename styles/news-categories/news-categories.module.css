@@ -8,10 +8,15 @@
   padding: 1rem 2rem 1rem 2rem;
 }
 
-.newsCategoriesSection {
+.newsRegionCategoriesSection {
   display: grid;
   grid-template-columns: 180px 180px;
   grid-template-rows: auto;
   justify-content: center;
   row-gap: 20px;
+}
+
+.newsTopicCategoriesSection {
+  display: flex;
+  flex-direction: column;
 }/*# sourceMappingURL=news-categories.module.css.map */

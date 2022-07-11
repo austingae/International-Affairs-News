@@ -1,7 +1,9 @@
 import React from 'react'
-import NewsCategoryRegionTemplate from './news-category-region-template'
 
 import styles from '../../../styles/news-categories/news-categories.module.css';
+
+import NewsCategoryRegionTemplate from './news-category-region-template'
+import NewsCategoryTopicTemplate from './news-category-topic-template';
 
 const NewsCategories = () => {
   return (
@@ -10,7 +12,7 @@ const NewsCategories = () => {
 
       {/* News Categories by Region */}
       <h4 className={styles.categorySectionTitle}>Regions</h4>
-      <section className={styles.newsCategoriesSection}>
+      <section className={styles.newsRegionCategoriesSection}>
         <NewsCategoryRegionTemplate regionLogo='/images/news-categories/regions/na.png' regionName='North America'/>
         <NewsCategoryRegionTemplate regionLogo='/images/news-categories/regions/sa.png' regionName='South America'/>
         <NewsCategoryRegionTemplate regionLogo='/images/news-categories/regions/eu.png' regionName='Europe'/>
@@ -21,6 +23,24 @@ const NewsCategories = () => {
 
       {/* News Categories by Topics */}
       <h4 className={styles.categorySectionTitle}>Topics</h4>
+      <section className={styles.newsTopicCategoriesSection}>
+        <NewsCategoryTopicTemplate 
+        topicImage='/images/news-categories/topics/us-china-competition.jpg' 
+        topicName='US-China Competition'
+        />
+        <NewsCategoryTopicTemplate 
+        topicImage='/images/news-categories/topics/israel-palestinian-conflict.jpg' 
+        topicName='Israel-Palestinian Conflict'
+        />
+        <NewsCategoryTopicTemplate 
+        topicImage='/images/news-categories/topics/russo-ukrainian-war.jpg' 
+        topicName='Russo-Ukrainian War'
+        />
+        <NewsCategoryTopicTemplate 
+        topicImage='/images/news-categories/topics/iranian-nuclear-deal-negotiation.jpg' 
+        topicName='Iranian Nuclear Deal Negotiation'
+        />
+      </section>
     </>
   )
 }

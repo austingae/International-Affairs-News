@@ -1,0 +1,21 @@
+$light-blue-color: rgb(139,217,248);
+
+.newsCategoryTopicTemplate {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 1rem;
+
+  cursor: pointer;
+
+  .topicName {
+    width: 220px;
+    margin-left: 0.7rem;
+  }
+
+  .topicName:hover {
+    color: $light-blue-color;
+  }
+}
