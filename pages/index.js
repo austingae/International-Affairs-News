@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 
 import ImageSlider from '../components/index/image-slider';
 import CountryLogoSlider from '../components/index/country-logo-slider';
-import NewsCategories from '../components/index/news-categories';
+import NewsCategories from '../components/index/news-categories/news-categories';
 
 export default function Home() {
   return (
@@ -26,7 +26,7 @@ export default function Home() {
 
         {/* News Categories */}
         <NewsCategories />
-        
+
       </main>
     </div>
   )

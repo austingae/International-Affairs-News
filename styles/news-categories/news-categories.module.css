@@ -1,0 +1,17 @@
+.title {
+  padding: 1rem 2rem 1rem 2rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.categorySectionTitle {
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+.newsCategoriesSection {
+  display: grid;
+  grid-template-columns: 180px 180px;
+  grid-template-rows: auto;
+  justify-content: center;
+  row-gap: 20px;
+}/*# sourceMappingURL=news-categories.module.css.map */

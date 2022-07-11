@@ -1,0 +1,13 @@
+.newsCategoryRegionTemplate {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+.newsCategoryRegionTemplate .regionName {
+  margin-left: 1rem;
+}
+
+.newsCategoryRegionTemplate:hover {
+  color: rgb(139, 217, 248);
+}/*# sourceMappingURL=news-category-region-template.module.css.map */
