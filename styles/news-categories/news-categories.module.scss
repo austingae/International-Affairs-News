@@ -91,7 +91,7 @@
 
   .regionSection {
     display: grid;
-    grid-template-columns: 200px 200px 200px; //RegionTemplate Width Determined Here!
+    grid-template-columns: 200px 200px 200px; 
     grid-template-rows: auto;
     justify-content: center;
 
@@ -100,3 +100,7 @@
 
   }
 }
+
+/*
+The Width of the Region = grid-template-columns: ### = img width + paragraph width + empty space (optional)
+*/
