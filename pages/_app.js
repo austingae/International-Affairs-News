@@ -6,11 +6,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <nav className='nav'>
         <div className='nav__container'>
-          <Image 
-            src="/images/logo/logo.png"
-            width="50px"
-            height="50px"
-          />
+          <img className='nav__website-logo' src='/images/logo/logo.png' />
           <h3 className='nav__website-name'>Elliott</h3>
         </div>
         <div className='nav__container'>

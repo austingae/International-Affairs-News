@@ -16,6 +16,10 @@
   flex-direction: row;
   align-items: center;
 }
+.nav .nav__website-logo {
+  width: 50px;
+  height: 50px;
+}
 .nav .nav__website-name {
   font-weight: 500;
   font-size: 1.25rem;
@@ -29,4 +33,22 @@
 }
 .nav .nav__link--margin-right {
   margin-right: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .nav {
+    width: auto;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+  }
+  .nav .nav__website-logo {
+    width: 60px;
+    height: 60px;
+  }
+  .nav .nav__website-name {
+    font-size: 2rem;
+    margin-left: 1rem;
+  }
+  .nav .nav__link {
+    font-size: 1.5rem;
+  }
 }/*# sourceMappingURL=globals.css.map */
