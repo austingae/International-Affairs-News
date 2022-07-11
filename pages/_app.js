@@ -21,6 +21,12 @@ function MyApp({ Component, pageProps }) {
       </nav>
 
       <Component {...pageProps} />
+
+      <footer className='footer'>
+        <img className='footer__website-logo' src='/images/logo/logo.png' />
+        <h3 className='footer__website-name'>Elliott</h3>
+        <p className='footer__copyright'>Copyright &copy; austingae</p>
+      </footer>
     </>
   )
 }
