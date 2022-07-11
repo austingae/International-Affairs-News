@@ -1,14 +1,17 @@
 $light-blue-color: rgb(139,217,248);
 
-.newsCategoryTopicTemplate {
+.topicTemplate {
   display: flex;
   flex-direction: row;
   align-items: center;
 
-
   margin-bottom: 1rem;
-
   cursor: pointer;
+
+  .topicImage {
+    width: 124px;
+    height: 70px;
+  }
 
   .topicName {
     width: 220px; //TopicTemplate Name's Width Determined Here! And TopicTemplate Image's Width Determined in news-category-topics-template.js
@@ -19,3 +22,49 @@ $light-blue-color: rgb(139,217,248);
     color: $light-blue-color;
   }
 }
+
+@media screen and (min-width: 725px) {
+
+  .topicTemplate {
+    .topicImage {
+      width: 160px;
+      height: 90px;
+    }
+
+    .topicName {
+      margin-left: 1.5rem;
+      width: 300px;
+
+      font-size: 1.15rem;
+    }
+  }
+}
+
+@media screen and (min-width: 850px) {
+
+  .topicTemplate {
+    .topicImage {
+      width: 200px;
+      height: 110px;
+    }
+
+    .topicName {
+      margin-left: 1.5rem;
+      width: 330px;
+
+      font-size: 1.15rem;
+    }
+  }
+
+  /*
+  .topicImage Width + .topicName Margin-Left + .topicName Width
+  200px + 24px + 330px = 554px
+  */
+}
+
+
+/*
+.topicImage Width + .topicName Margin-Left + .topicName Width
+124px + 11.20px + 220px
+
+*/

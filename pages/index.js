@@ -43,7 +43,6 @@ Navigation Bar - looks good.
 Country Logo Slider - looks good.
 Image Slider - looks good.
 International Affairs News Categories Title - looks good.
-
-
-At 1200px, I want the two categories side by side. 
+Region Category - looks good.
+Topic Category - looks good.
 */
