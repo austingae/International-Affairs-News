@@ -11,6 +11,7 @@ const Articles = ({newsArticles}) => {
             <img src={article.urlToImage} style={{width: '200px'}}/>
             <h3>{article.title}</h3>
             <p>{article.description}</p>
+            <p>{article.source.name}</p>
             <button>
               <Link href={article.url}>
                 <a>Read More</a>
@@ -58,8 +59,8 @@ export async function getServerSideProps(pageContext) {
   `q=${keywords}&` + 
   `language=en&` + 
   `sortBy=relevancy&` + 
-  `domains=${domains}& ` +
-  `pageSize=10&` + 
+  `domains=${domains}&` +
+  `pageSize=15&` + 
   `page=${pageNumber}&` + 
   `apiKey=12fd877f04d64df1a09a3616222315ca`
   );
@@ -69,7 +70,6 @@ export async function getServerSideProps(pageContext) {
   //newsArticles - an array that holds news articles
   let newsArticles = newsAPIData.articles;
 
-  console.log(newsAPIData);
   return {
     props: {
       newsArticles: newsArticles,

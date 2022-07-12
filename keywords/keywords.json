@@ -11,22 +11,22 @@
   },
   {
     "slug": "europe",
-    "keywords": "(europe OR european union OR EU) AND (politics OR economy OR military OR culture OR society)",
+    "keywords": "(europe OR european union OR EU OR united kingdom OR britain OR great britain OR ireland OR austria OR belgium OR france OR germany OR greece OR spain OR sweden OR poland OR portugal OR russia OR italy OR hungary OR finaldn OR estonia OR denmark OR cezechslovakia OR belarus OR ukraine OR turkey OR sweden OR finaldn OR norway  OR bulgaria O Rmiceland OR albania OR luxembourg OR switzerland OR north macedonia OR lithuania OR bosnia and herzegovina OR liechtenstein OR kosovo OR vatican city) AND (politics OR economy OR military OR culture OR society)",
     "domains": "nytimes.com, wsj.com, foxnews.com, ft.com, aljazeera.com, bbc.com, independent.co.uk, france24.com, connexionfrance.com, dw.com, swissinfo.ch, europarl.europa.eu, irishtimes.com, www.rt.com"
   },
   {
     "slug": "middle-east",
-    "keywords": "middle-east",
+    "keywords": "(middle east OR cyprus OR lebanon OR syria OR iraq OR iran OR israel OR palestine OR palestinian OR jordan OR saudia arabia OR mohammed bin salman OR  kuwait OR qatar OR bahrain OR united arabs emirates OR UAE or oman OR yemen OR israeli apartheid OR syrian civil war OR iran-saudi rivalry OR yemeni civil war) AND (politics OR economy OR military OR culture OR society)",
     "domains": "nytimes.com, wsj.com, foxnews.com, ft.com, aljazeera.com, bbc.com, tehrantimes.com, timesofisrael.com, palestinechronicle.com"
   },
   {
     "slug": "africa",
-    "keywords": "africa",
+    "keywords": "(africa OR djibouti OR seychelles OR drc OR democratic republic of the congo OR sierra leona OR libya OR south africa OR congo OR kenya OR liberia OR uganda OR algeria OR sudan OR morocco OR angola OR ghana OR madgascar OR cameroon OR niger OR botswana OR gabon OR nigeria OR mali OR zambia OR senegal OR chad OR somalia OR rwanda OR ethiopia OR egypt) AND (politics OR economy OR military OR culture OR society)",
     "domains": "nytimes.com, wsj.com, foxnews.com, ft.com, aljazeera.com, bbc.com, africanews.com, cnn.com, aljazeera.com, washingtonpost.com, npr.org"
   },
   {
     "slug": "asia",
-    "keywords": "asia",
+    "keywords": "(asia OR china OR people's republic of china OR CCP OR xi jinping OR south korea OR yoon seok-yeol OR moon jae-in OR north korea OR kim jong-un OR kim yo-jong OR japan OR shinzo abe OR fumio kishida OR mongolia OR indonesia OR india OR modi OR thailand OR philippines OR vietnam OR singapore OR malaysia OR hong kong OR pakistan OR taiwan OR sri lanka OR cambodia OR myanmar OR burma OR nepal OR laos OR bangladesh OR uzbekistan OR kyrgzstan OR bhutan OR indonesia) AND (politics OR economy OR military OR culture OR society)",
     "domains": "nytimes.com, wsj.com, foxnews.com, ft.com, aljazeera.com, bbc.com, english.chosun.com, japantimes.co.jp, asahi.com, chinadaily.com.cn"
   },
   {
