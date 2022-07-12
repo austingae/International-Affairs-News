@@ -7,7 +7,7 @@ const Articles = ({newsArticles}) => {
     {
       newsArticles.map((article) => {
         return (
-          <div>
+          <div key={article.title}>
             <img src={article.urlToImage} style={{width: '200px'}}/>
             <h3>{article.title}</h3>
             <p>{article.description}</p>
