@@ -11,7 +11,7 @@
   },
   {
     "slug": "europe",
-    "keywords": "(europe OR european union OR EU OR united kingdom OR britain OR great britain OR ireland OR austria OR belgium OR france OR germany OR greece OR spain OR sweden OR poland OR portugal OR russia OR italy OR hungary OR finaldn OR estonia OR denmark OR cezechslovakia OR belarus OR ukraine OR turkey OR sweden OR finaldn OR norway  OR bulgaria O Rmiceland OR albania OR luxembourg OR switzerland OR north macedonia OR lithuania OR bosnia and herzegovina OR liechtenstein OR kosovo OR vatican city) AND (politics OR economy OR military OR culture OR society)",
+    "keywords": "(europe OR european union OR EU) AND (united kingdom OR britain OR ireland OR austria OR belgium OR france OR germany OR greece OR spain)",
     "domains": "nytimes.com, wsj.com, foxnews.com, ft.com, aljazeera.com, bbc.com, independent.co.uk, france24.com, connexionfrance.com, dw.com, swissinfo.ch, europarl.europa.eu, irishtimes.com, www.rt.com"
   },
   {
@@ -26,7 +26,7 @@
   },
   {
     "slug": "asia",
-    "keywords": "(asia OR china OR people's republic of china OR xi jinping OR south korea OR yoon seok-yeol OR moon jae-in OR north korea OR kim jong-un OR japan OR shinzo abe OR fumio kishida OR indonesia OR india OR modi OR thailand OR philippines OR vietnam OR malaysia OR hong kong OR pakistan OR taiwan OR sri lanka OR cambodia OR burma OR laos OR bangladesh OR uzbekistan OR kryzgystan OR bhutan) AND (politics OR economy OR military OR culture OR society)",
+    "keywords": "asia AND (china OR people's republic of china OR xi jinping OR south korea OR yoon seok-yeol OR moon jae-in OR north korea OR kim jong-un OR japan OR shinzo abe OR fumio kishida OR indonesia OR india OR modi OR thailand OR philippines OR vietnam OR malaysia OR hong kong OR pakistan OR taiwan OR sri lanka OR cambodia OR burma OR laos OR bangladesh OR uzbekistan OR kryzgystan OR bhutan) AND (politics OR economy OR military OR culture OR society)",
     "domains": "nytimes.com, wsj.com, foxnews.com, ft.com, aljazeera.com, bbc.com, english.chosun.com, japantimes.co.jp, asahi.com, chinadaily.com.cn"
   },
   {
