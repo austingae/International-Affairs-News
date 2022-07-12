@@ -2,52 +2,52 @@
   {
     "slug": "north-america",
     "keywords": "(united states OR US OR washington dc) OR (canada OR ottawa) OR (mexico OR mexico city)",
-    "domains": "nytimes.com, wsj.com, foxnews.com, www.ft.com, www.bbc.comtheglobeandmail.com, nationalpost.com, mexiconewsdaily.com"
+    "domains": "nytimes.com, wsj.com, foxnews.com, ft.com, bbc.com, theglobeandmail.com, nationalpost.com, mexiconewsdaily.com"
   },
   {
     "slug": "south-america",
     "keywords": "(argentina) OR (bolivia) OR (brazil) OR (chile) OR (colombia) OR (ecuador) OR (peru) OR (venezuela)",
-    "domains": "nytimes.com, wsj.com, foxnews.com, www.ft.com, aljazeera.com, batimes.com.ar, www.bbc.com, venezuelanalysis.com"
+    "domains": "nytimes.com, wsj.com, foxnews.com, ft.com, aljazeera.com, batimes.com.ar, bbc.com, venezuelanalysis.com"
   },
   {
     "slug": "europe",
-    "keywords": "europe",
-    "domains": "nytimes.com, wsj.com, foxnews.com, www.ft.com, aljazeera.com, www.bbc.com, www.independent.co.uk, www.france24.com, connexionfrance.com, www.dw.com, www.swissinfo.ch, www.europarl.europa.eu, www.irishtimes.com, www.rt.com"
+    "keywords": "(europe OR european union OR EU)",
+    "domains": "nytimes.com, wsj.com, foxnews.com, ft.com, aljazeera.com, bbc.com, independent.co.uk, france24.com, connexionfrance.com, dw.com, swissinfo.ch, europarl.europa.eu, irishtimes.com, www.rt.com"
   },
   {
     "slug": "middle-east",
     "keywords": "middle-east",
-    "domains": "nytimes.com, wsj.com, foxnews.com, www.ft.com, aljazeera.com, www.bbc.com, www.tehrantimes.com, www.timesofisrael.com, www.palestinechronicle.com"
+    "domains": "nytimes.com, wsj.com, foxnews.com, ft.com, aljazeera.com, bbc.com, tehrantimes.com, timesofisrael.com, palestinechronicle.com"
   },
   {
     "slug": "africa",
     "keywords": "africa",
-    "domains": ""
+    "domains": "nytimes.com, wsj.com, foxnews.com, ft.com, aljazeera.com, bbc.com, africanews.com, cnn.com, aljazeera.com, washingtonpost.com, npr.org"
   },
   {
     "slug": "asia",
     "keywords": "asia",
-    "domains": ""
+    "domains": "nytimes.com, wsj.com, foxnews.com, ft.com, aljazeera.com, bbc.com, english.chosun.com, japantimes.co.jp, asahi.com, chinadaily.com.cn"
   },
   {
     "slug": "us-china-competition",
     "keywords": "(united states OR washington dc OR white house OR biden administration OR republican party OR democratic party OR trump) AND (china OR prc OR xi jinping OR wang yi OR ccp OR chinese communist party) AND (politics OR military OR energy OR climate change OR taiwan OR south china sea OR east china sea OR japan OR fumio kishida OR shinzo abe OR north korea OR kim jong-un OR south korea OR yoon seok-youl OR india OR modi quad OR quadrilateral security dialogue)",
-    "domains": ""
+    "domains": "nytimes.com, wsj.com, foxnews.com, ft.com, aljazeera.com, bbc.com, english.chosun.com, japantimes.co.jp, asahi.com, chinadaily.com.cn, globaltimes.cn, foreignpolicy.com, foreignaffairs.com, "
   },
   {
     "slug": "israel-palestinian-conflict",
     "keywords": "",
-    "domains": ""
+    "domains": "palestinechronicle.com, timesofisrael.com, nytimes.com, wsj.com, foxnews.com, ft.com, aljazeera.com, bbc.com,"
   },
   {
     "slug": "russo-ukrainian-war",
     "keywords": "",
-    "domains": ""
+    "domains": "nytimes.com, wsj.com, foxnews.com, ft.com, bbc.com"
   },
   {
     "slug": "iranian-nuclear-deal-negotiation",
     "keywords": "",
-    "domains": ""
+    "domains": "nytimes.com, wsj.com, foxnews.com, ft.com, bbc.com, tehrantimes.com"
   }
   
 ]
