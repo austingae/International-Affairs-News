@@ -14,12 +14,12 @@ const NewsCategories = () => {
       <section>
         <h4 className={styles.categoryTitle}>Regions</h4>
         <div className={styles.regionSection}>
-          <NewsCategoryRegionTemplate path='/articles/north-america' regionLogo='/images/news-categories/regions/na.png' regionName='North America'/>
-          <NewsCategoryRegionTemplate path='/articles/south-america' regionLogo='/images/news-categories/regions/sa.png' regionName='South America'/>
-          <NewsCategoryRegionTemplate path='/articles/europe' regionLogo='/images/news-categories/regions/eu.png' regionName='Europe'/>
-          <NewsCategoryRegionTemplate path='/articles/middle-east' regionLogo='/images/news-categories/regions/me.png' regionName='Middle East'/>
-          <NewsCategoryRegionTemplate path='/articles/africa' regionLogo='/images/news-categories/regions/af.png' regionName='Africa'/>
-          <NewsCategoryRegionTemplate path='/articles/asia' regionLogo='/images/news-categories/regions/as.png' regionName='Asia'/>
+          <NewsCategoryRegionTemplate path='/articles/north-america--1' regionLogo='/images/news-categories/regions/na.png' regionName='North America'/>
+          <NewsCategoryRegionTemplate path='/articles/south-america--1' regionLogo='/images/news-categories/regions/sa.png' regionName='South America'/>
+          <NewsCategoryRegionTemplate path='/articles/europe--1' regionLogo='/images/news-categories/regions/eu.png' regionName='Europe'/>
+          <NewsCategoryRegionTemplate path='/articles/middle-east--1' regionLogo='/images/news-categories/regions/me.png' regionName='Middle East'/>
+          <NewsCategoryRegionTemplate path='/articles/africa--1' regionLogo='/images/news-categories/regions/af.png' regionName='Africa'/>
+          <NewsCategoryRegionTemplate path='/articles/asia--1' regionLogo='/images/news-categories/regions/as.png' regionName='Asia'/>
         </div>
       </section>
 

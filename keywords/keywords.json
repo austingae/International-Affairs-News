@@ -6,6 +6,21 @@
   {
     "slug": "south-america",
     "keywords": "(argentina) OR (bolivia) OR (brazil) OR (chile) OR (colombia) OR (ecuador) OR (peru) OR (venezuela)"
+  },
+  {
+    "slug": "europe",
+    "keywords": "europe"
+  },
+  {
+    "slug": "middle-east",
+    "keywords": "middle-east"
+  },
+  {
+    "slug": "africa",
+    "keywords": "africa"
+  },
+  {
+    "slug": "asia",
+    "keywords": "asia"
   }
-  
 ]
