@@ -22,5 +22,22 @@
   {
     "slug": "asia",
     "keywords": "asia"
+  },
+  {
+    "slug": "us-china-competition",
+    "keywords": "(united states OR washington dc OR white house OR biden administration OR republican party OR democratic party OR trump) AND (china OR prc OR xi jinping OR wang yi OR ccp OR chinese communist party) AND (politics OR military OR energy OR climate change OR taiwan OR south china sea OR east china sea OR japan OR fumio kishida OR shinzo abe OR north korea OR kim jong-un OR south korea OR yoon seok-youl OR india OR modi quad OR quadrilateral security dialogue)"
+  },
+  {
+    "slug": "israel-palestinian-conflict",
+    "keywords": ""
+  },
+  {
+    "slug": "russo-ukrainian-war",
+    "keywords": ""
+  },
+  {
+    "slug": "iranian-nuclear-deal-negotiation",
+    "keywords": ""
   }
+  
 ]

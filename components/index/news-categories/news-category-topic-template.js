@@ -1,13 +1,18 @@
 import React from 'react'
+import Link from 'next/link'
 
 import styles from '../../../styles/news-categories/news-category-topic-template.module.css'
 
-const NewsCategoryTopicTemplate = ({topicImage, topicName}) => {
+const NewsCategoryTopicTemplate = ({path, topicImage, topicName}) => {
   return (
-    <div className={styles.topicTemplate}>
-      <img className={styles.topicImage} src={topicImage} />
-      <p className={styles.topicName}>{topicName}</p>
-    </div>
+    <Link href={path}>
+      <a className={styles.topicLink}>
+        <div className={styles.topicTemplate}>
+          <img className={styles.topicImage} src={topicImage} />
+          <p className={styles.topicName}>{topicName}</p>
+        </div>
+      </a>
+    </Link>
   )
 }
 

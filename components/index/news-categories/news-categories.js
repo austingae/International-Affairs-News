@@ -27,18 +27,22 @@ const NewsCategories = () => {
       <h4 className={styles.categoryTitle}>Topics</h4>
       <section className={styles.topicSection}>
         <NewsCategoryTopicTemplate 
+        path='/articles/us-china-competition--1'
         topicImage='/images/news-categories/topics/us-china-competition.jpg' 
         topicName='US-China Competition'
         />
         <NewsCategoryTopicTemplate 
+        path='/articles/israel-palestinian-conflict--1'
         topicImage='/images/news-categories/topics/israel-palestinian-conflict.jpg' 
         topicName='Israel-Palestinian Conflict'
         />
         <NewsCategoryTopicTemplate 
+        path='/articles/russo-ukrainian-war--1'
         topicImage='/images/news-categories/topics/russo-ukrainian-war.jpg' 
         topicName='Russo-Ukrainian War'
         />
         <NewsCategoryTopicTemplate 
+        path='iranian-nuclear-deal-negotiation--1'
         topicImage='/images/news-categories/topics/iranian-nuclear-deal-negotiation.jpg' 
         topicName='Iranian Nuclear Deal Negotiation'
         />

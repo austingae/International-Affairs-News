@@ -1,3 +1,8 @@
+.topicLink {
+  color: black;
+  text-decoration: none;
+}
+
 .topicTemplate {
   display: flex;
   flex-direction: row;
