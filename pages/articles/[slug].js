@@ -11,8 +11,14 @@ export default Articles
 export async function getServerSideProps(pageContext) {
   const slug = pageContext.query.slug;
 
-  
-  console.log(slug);
+  let jsonFile = await fetch (`https://raw.githubusercontent.com/austingae/International-Affairs-News/master/keywords/keywords.json`);
+  let data = await jsonFile.json();
+
+  data.forEach((datum) => {
+    if (slug == datum.slug) {
+      console.log(datum.keywords);
+    }
+  })
   return {
     props: {
 
