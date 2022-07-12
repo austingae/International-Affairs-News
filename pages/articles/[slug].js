@@ -34,17 +34,24 @@ export async function getServerSideProps(pageContext) {
   const slug = rawSlugArray[0]; //slug = north-america
   const pageNumber = rawSlugArray[1]; //pageNumber = 1
 
+  console.log(slug);
+  console.log(pageNumber);
+
   
   let jsonFile = await fetch (`https://raw.githubusercontent.com/austingae/International-Affairs-News/master/keywords/keywords.json`); //fetches the keywords.json, a json file which I made
   let keywordsData = await jsonFile.json(); //keywordsData = JSON file Content
 
-  //RETRIEVE THE KEYWORDS BY CHECKING IF THE SLUG ON THE WEBSITE EQUALS the SLUG IN THE JSON FILE>
+  //RETRIEVE THE KEYWORDS and DOMAINS BY CHECKING IF THE SLUG ON THE WEBSITE EQUALS the SLUG IN THE JSON FILE>
   let keywords = "";
+  let domains = "";
   keywordsData.forEach((datum) => { //go through every item in the the keywordsData
     if (slug == datum.slug) { //if the slug equals the item's slug, then...
       keywords = datum.keywords; //then make the keywords = the item's keywords
+      domains = datum.domains;
     }
   })
+
+  console.log(keywords);
 
   //News API Data
   let newsAPIResponse = await fetch(`https://newsapi.org/v2/everything?` + 
@@ -52,7 +59,7 @@ export async function getServerSideProps(pageContext) {
   `from=2022-07-01&` + 
   `language=en&` + 
   `sortBy=publishedAt&` + 
-  `domains=wsj.com, foxnews.com, nytimes.com&` +
+  `domains=${domains}& ` +
   `pageSize=10&` + 
   `page=${pageNumber}&` + 
   `apiKey=3daa9affabe0493aa7dd7048d570c177`

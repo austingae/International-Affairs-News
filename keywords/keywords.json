@@ -1,43 +1,53 @@
 [
   {
     "slug": "north-america",
-    "keywords": "(united states OR US OR washington dc) OR (canada OR ottawa) OR (mexico OR mexico city)"
+    "keywords": "(united states OR US OR washington dc) OR (canada OR ottawa) OR (mexico OR mexico city)",
+    "domains": "nytimes.com, wsj.com, foxnews.com, www.ft.com, www.bbc.comtheglobeandmail.com, nationalpost.com, mexiconewsdaily.com"
   },
   {
     "slug": "south-america",
-    "keywords": "(argentina) OR (bolivia) OR (brazil) OR (chile) OR (colombia) OR (ecuador) OR (peru) OR (venezuela)"
+    "keywords": "(argentina) OR (bolivia) OR (brazil) OR (chile) OR (colombia) OR (ecuador) OR (peru) OR (venezuela)",
+    "domains": "nytimes.com, wsj.com, foxnews.com, www.ft.com, aljazeera.com, batimes.com.ar, www.bbc.com, venezuelanalysis.com"
   },
   {
     "slug": "europe",
-    "keywords": "europe"
+    "keywords": "europe",
+    "domains": "nytimes.com, wsj.com, foxnews.com, www.ft.com, aljazeera.com, www.bbc.com, www.independent.co.uk, www.france24.com, connexionfrance.com, www.dw.com, www.swissinfo.ch, www.europarl.europa.eu, www.irishtimes.com, www.rt.com"
   },
   {
     "slug": "middle-east",
-    "keywords": "middle-east"
+    "keywords": "middle-east",
+    "domains": "nytimes.com, wsj.com, foxnews.com, www.ft.com, aljazeera.com, www.bbc.com, www.tehrantimes.com, www.timesofisrael.com, www.palestinechronicle.com"
   },
   {
     "slug": "africa",
-    "keywords": "africa"
+    "keywords": "africa",
+    "domains": ""
   },
   {
     "slug": "asia",
-    "keywords": "asia"
+    "keywords": "asia",
+    "domains": ""
   },
   {
     "slug": "us-china-competition",
-    "keywords": "(united states OR washington dc OR white house OR biden administration OR republican party OR democratic party OR trump) AND (china OR prc OR xi jinping OR wang yi OR ccp OR chinese communist party) AND (politics OR military OR energy OR climate change OR taiwan OR south china sea OR east china sea OR japan OR fumio kishida OR shinzo abe OR north korea OR kim jong-un OR south korea OR yoon seok-youl OR india OR modi quad OR quadrilateral security dialogue)"
+    "keywords": "(united states OR washington dc OR white house OR biden administration OR republican party OR democratic party OR trump) AND (china OR prc OR xi jinping OR wang yi OR ccp OR chinese communist party) AND (politics OR military OR energy OR climate change OR taiwan OR south china sea OR east china sea OR japan OR fumio kishida OR shinzo abe OR north korea OR kim jong-un OR south korea OR yoon seok-youl OR india OR modi quad OR quadrilateral security dialogue)",
+    "domains": ""
   },
   {
     "slug": "israel-palestinian-conflict",
-    "keywords": ""
+    "keywords": "",
+    "domains": ""
   },
   {
     "slug": "russo-ukrainian-war",
-    "keywords": ""
+    "keywords": "",
+    "domains": ""
   },
   {
     "slug": "iranian-nuclear-deal-negotiation",
-    "keywords": ""
+    "keywords": "",
+    "domains": ""
   }
   
 ]
