@@ -1,17 +1,17 @@
 [
   {
     "slug": "north-america",
-    "keywords": "(united states OR US OR washington dc) OR (canada OR ottawa) OR (mexico OR mexico city)",
+    "keywords": "(united states OR US OR washington dc) OR (canada OR ottawa) OR (mexico OR mexico city) AND (politics OR economy OR military OR culture OR society)",
     "domains": "nytimes.com, wsj.com, foxnews.com, ft.com, bbc.com, theglobeandmail.com, nationalpost.com, mexiconewsdaily.com"
   },
   {
     "slug": "south-america",
-    "keywords": "(argentina) OR (bolivia) OR (brazil) OR (chile) OR (colombia) OR (ecuador) OR (peru) OR (venezuela)",
+    "keywords": "(argentina) OR (bolivia) OR (brazil) OR (chile) OR (colombia) OR (ecuador) OR (peru) OR (venezuela) AND (politics OR economy OR military OR culture OR society)",
     "domains": "nytimes.com, wsj.com, foxnews.com, ft.com, aljazeera.com, batimes.com.ar, bbc.com, venezuelanalysis.com"
   },
   {
     "slug": "europe",
-    "keywords": "(europe OR european union OR EU)",
+    "keywords": "(europe OR european union OR EU) AND (politics OR economy OR military OR culture OR society)",
     "domains": "nytimes.com, wsj.com, foxnews.com, ft.com, aljazeera.com, bbc.com, independent.co.uk, france24.com, connexionfrance.com, dw.com, swissinfo.ch, europarl.europa.eu, irishtimes.com, www.rt.com"
   },
   {
