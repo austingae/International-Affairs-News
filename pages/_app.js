@@ -16,7 +16,6 @@ function MyApp({ Component, pageProps }) {
           onClick={() => {
             document.getElementById('news-categories').scrollIntoView({behavior: "smooth"});
           }}>Categories</a>
-          <a className='nav__link'>About Us</a>
         </div>
       </nav>
 

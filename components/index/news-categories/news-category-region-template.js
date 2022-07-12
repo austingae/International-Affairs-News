@@ -1,14 +1,20 @@
 import React from 'react'
-import Image from 'next/image'
+import Link from 'next/link'
 
 import styles from '../../../styles/news-categories/news-category-region-template.module.css'
 
-const NewsCategoryRegionTemplate = ({regionLogo, regionName}) => {
+const NewsCategoryRegionTemplate = ({path, regionLogo, regionName}) => {
   return (
-    <div className={styles.regionTemplate}>
-      <img className={styles.regionLogo}src={regionLogo} />
-      <p className={styles.regionName}>{regionName}</p>
-  </div>
+    <>
+    <Link href={path}>
+      <a className={styles.regionLink}>
+        <div className={styles.regionTemplate}>
+            <img className={styles.regionLogo}src={regionLogo} />
+            <p className={styles.regionName}>{regionName}</p>
+      </div>
+    </a>
+  </Link>
+  </>
   )
 }
 
