@@ -31,22 +31,22 @@
   },
   {
     "slug": "us-china-competition",
-    "keywords": "(united states OR washington dc OR white house OR biden administration OR republican party OR democratic party OR trump) AND (china OR prc OR xi jinping OR wang yi OR ccp OR chinese communist party) AND (politics OR military OR energy OR climate change OR taiwan OR south china sea OR east china sea OR japan OR fumio kishida OR shinzo abe OR north korea OR kim jong-un OR south korea OR yoon seok-youl OR india OR modi quad OR quadrilateral security dialogue)",
-    "domains": "nytimes.com, wsj.com, foxnews.com, ft.com, aljazeera.com, bbc.com, english.chosun.com, japantimes.co.jp, asahi.com, chinadaily.com.cn, globaltimes.cn, foreignpolicy.com, foreignaffairs.com, "
+    "keywords": "(united states) AND (china) AND (politics OR military OR energy OR climate change OR taiwan OR south china sea OR east china sea OR japan OR fumio kishida OR shinzo abe OR north korea OR kim jong-un OR south korea OR yoon seok-youl OR india OR modi OR quad OR quadrilateral security dialogue)",
+    "domains": "nytimes.com, wsj.com, foxnews.com, ft.com, aljazeera.com, bbc.com, english.chosun.com, japantimes.co.jp, asahi.com, chinadaily.com.cn, globaltimes.cn, foreignpolicy.com, foreignaffairs.com"
   },
   {
     "slug": "israel-palestinian-conflict",
-    "keywords": "",
+    "keywords": "(israel) AND (palestine OR palestinian OR hamas OR gaza strip) OR (apartheid) OR (west bank OR gaza strip)",
     "domains": "palestinechronicle.com, timesofisrael.com, nytimes.com, wsj.com, foxnews.com, ft.com, aljazeera.com, bbc.com,"
   },
   {
     "slug": "russo-ukrainian-war",
-    "keywords": "",
+    "keywords": "(russia OR moscow OR putin) AND (ukraine OR kyviv OR kiev OR zelensky) AND (war OR battle OR killing OR killings OR death OR deaths)",
     "domains": "nytimes.com, wsj.com, foxnews.com, ft.com, bbc.com"
   },
   {
     "slug": "iranian-nuclear-deal-negotiation",
-    "keywords": "",
+    "keywords": "(iran OR tehran OR ali khamenei) AND (united states OR US OR european union OR EU) AND (nuclear)",
     "domains": "nytimes.com, wsj.com, foxnews.com, ft.com, bbc.com, tehrantimes.com"
   }
   

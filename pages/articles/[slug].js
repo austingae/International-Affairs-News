@@ -56,19 +56,20 @@ export async function getServerSideProps(pageContext) {
   //News API Data
   let newsAPIResponse = await fetch(`https://newsapi.org/v2/everything?` + 
   `q=${keywords}&` + 
-  `from=2022-07-01&` + 
   `language=en&` + 
-  `sortBy=publishedAt&` + 
+  `sortBy=relevancy&` + 
   `domains=${domains}& ` +
   `pageSize=10&` + 
   `page=${pageNumber}&` + 
-  `apiKey=3daa9affabe0493aa7dd7048d570c177`
+  `apiKey=12fd877f04d64df1a09a3616222315ca`
   );
 
   let newsAPIData = await newsAPIResponse.json();
 
   //newsArticles - an array that holds news articles
   let newsArticles = newsAPIData.articles;
+
+  console.log(newsAPIData);
   return {
     props: {
       newsArticles: newsArticles,

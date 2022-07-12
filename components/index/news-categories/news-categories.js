@@ -42,7 +42,7 @@ const NewsCategories = () => {
         topicName='Russo-Ukrainian War'
         />
         <NewsCategoryTopicTemplate 
-        path='iranian-nuclear-deal-negotiation--1'
+        path='/articles/iranian-nuclear-deal-negotiation--1'
         topicImage='/images/news-categories/topics/iranian-nuclear-deal-negotiation.jpg' 
         topicName='Iranian Nuclear Deal Negotiation'
         />
