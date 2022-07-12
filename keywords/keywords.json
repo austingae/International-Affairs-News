@@ -26,7 +26,7 @@
   },
   {
     "slug": "asia",
-    "keywords": "asia",
+    "keywords": "(asia OR china OR people's republic of china OR xi jinping OR south korea OR yoon seok-yeol OR moon jae-in OR north korea OR kim jong-un)",
     "domains": "nytimes.com, wsj.com, foxnews.com, ft.com, aljazeera.com, bbc.com, english.chosun.com, japantimes.co.jp, asahi.com, chinadaily.com.cn"
   },
   {
