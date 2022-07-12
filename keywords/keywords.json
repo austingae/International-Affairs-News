@@ -12,7 +12,7 @@
   {
     "slug": "europe",
     "keywords": "(europe OR european union OR EU) AND (united kingdom OR britain OR ireland OR austria OR belgium OR france OR germany OR greece OR spain)",
-    "domains": "nytimes.com, wsj.com, foxnews.com, ft.com, aljazeera.com, bbc.com, independent.co.uk, france24.com, connexionfrance.com, dw.com, swissinfo.ch, europarl.europa.eu, irishtimes.com, www.rt.com"
+    "domains": "nytimes.com, wsj.com, foxnews.com, ft.com, aljazeera.com, bbc.com, independent.co.uk, france24.com, connexionfrance.com, dw.com, swissinfo.ch, europarl.europa.eu, irishtimes.com"
   },
   {
     "slug": "middle-east",
