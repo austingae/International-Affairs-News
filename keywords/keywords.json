@@ -21,7 +21,7 @@
   },
   {
     "slug": "africa",
-    "keywords": "africa AND (djibouti OR sierra leone OR south africa OR libya OR tanzania OR congo OR kenya OR liberia OR uganda OR algeria OR morocco OR ghana OR madagascar OR cameroon OR namibia OR niger OR botswana OR lesotho OR zambia OR senegal OR chad OR somalia OR zimbabwe OR equatorial guinea OR rwanda OR burundi OR tunisia OR eswatini OR ethiopia OR south sudan OR egypt)",
+    "keywords": "africa AND (djibouti OR sierra leone OR south africa OR libya OR tanzania OR congo OR kenya OR liberia OR uganda OR algeria OR morocco OR ghana OR madagascar OR cameroon OR namibia OR niger OR botswana OR lesotho OR zambia OR senegal OR chad OR somalia OR zimbabwe OR equatorial guinea OR rwanda OR burundi OR tunisia OR eswatini OR ethiopia OR south sudan OR egypt) AND (politics OR culture OR military OR society OR poverty OR civil war OR unrest)",
     "domains": "nytimes.com, wsj.com, foxnews.com, ft.com, aljazeera.com, bbc.com, english.chosun.com, japantimes.co.jp, asahi.com, chinadaily.com.cn"
   },
   {
