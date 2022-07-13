@@ -47,4 +47,38 @@
 }
 .pageNumberLinkContainer .pageNumberLink:hover {
   color: rgb(139, 217, 248);
+}
+
+@media screen and (min-width: 768px) {
+  .article {
+    width: 400px;
+    margin: 0rem auto 2.5rem auto;
+  }
+  .article .article__date {
+    font-size: 12px;
+  }
+  .article .article__title {
+    font-size: 23px;
+  }
+  .article .article__description {
+    font-size: 15px;
+  }
+  .article .article__readMoreButton {
+    font-size: 14px;
+    padding: 0.6rem 0.8rem 0.6rem 0.8rem;
+  }
+}
+@media screen and (min-width: 900px) {
+  .articleGridLayout {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .articleGridLayout {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+  }
 }/*# sourceMappingURL=news-article.module.css.map */

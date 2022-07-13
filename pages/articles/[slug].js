@@ -6,23 +6,25 @@ const Articles = ({newsArticles, slug, pageNumber, potentialPageNumberArray}) =>
   return (
     <>
     {/* using .map() to display the articles */}
-    {
-      newsArticles.map((article) => {
-        return (
-          <div className={styles.article} key={article.title}>
-            <img className={styles.article__image} src={article.urlToImage} />
-            <p className={styles.article__date}>{article.formattedDate}</p>
-            <h3 className={styles.article__title}>{article.title}</h3>
-            <p className={styles.article__description}>{article.description}</p>
-            <button className={styles.article__readMoreButton}>  
-              <a className={styles.article__readMoreLink} href={article.url} target="_blank" rel="noopener noreferrer">
-                Read More on {article.source.name}
-              </a>
-            </button>
-          </div>
-        )
-      })
-    }
+    <div className={styles.articleGridLayout}>
+      {
+        newsArticles.map((article) => {
+          return (
+            <div className={styles.article} key={article.title}>
+              <img className={styles.article__image} src={article.urlToImage} />
+              <p className={styles.article__date}>{article.formattedDate}</p>
+              <h3 className={styles.article__title}>{article.title}</h3>
+              <p className={styles.article__description}>{article.description}</p>
+              <button className={styles.article__readMoreButton}>  
+                <a className={styles.article__readMoreLink} href={article.url} target="_blank" rel="noopener noreferrer">
+                  Read More on {article.source.name}
+                </a>
+              </button>
+            </div>
+          )
+        })
+      }
+    </div>
 
     {/* Page Buttons */}
     <div className={styles.pageNumberLinkContainer}>
