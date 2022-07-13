@@ -11,7 +11,7 @@
   },
   {
     "slug": "europe",
-    "keywords": "(europe OR european union OR EU) AND (united kingdom OR britain OR ireland OR austria OR belgium OR france OR germany OR greece OR spain OR sweden OR poland OR portugal OR russia OR italy OR hungary OR finaldn OR estonia OR denmark OR cezechslovakia OR belarus OR ukraine OR turkey OR sweden OR finland OR norway OR bulgaria OR albania OR luxembourg OR switzerland OR north macedonia OR lithuania OR bosnia and herzegovina OR liechtenstein OR kosovo OR vatican city)",
+    "keywords": "(europe OR european union OR EU) AND (united kingdom OR britain OR ireland OR austria OR belgium OR france OR germany OR greece OR spain OR sweden OR poland OR portugal OR russia OR italy OR hungary OR finland OR estonia OR denmark OR cezechslovakia OR belarus OR ukraine OR turkey OR sweden OR norway OR bulgaria OR albania OR luxembourg OR switzerland OR north macedonia OR lithuania OR bosnia and herzegovina OR liechtenstein OR kosovo OR vatican city)",
     "domains": "nytimes.com, wsj.com, foxnews.com, ft.com, aljazeera.com, bbc.com, independent.co.uk, france24.com, connexionfrance.com, dw.com, swissinfo.ch, europarl.europa.eu, irishtimes.com"
   },
   {
@@ -21,7 +21,7 @@
   },
   {
     "slug": "africa",
-    "keywords": "(africa OR djibouti OR seychelles OR drc OR democratic republic of the congo OR sierra leona OR libya OR south africa OR congo OR kenya OR liberia OR uganda OR algeria OR sudan OR morocco OR angola OR ghana OR madgascar OR cameroon OR niger OR botswana OR gabon OR nigeria OR mali OR zambia OR senegal OR chad OR somalia OR rwanda OR ethiopia OR egypt) AND (politics OR economy OR military OR culture OR society)",
+    "keywords": "(africa OR djibouti OR seychelles OR democratic republic of the congo OR sierra leona OR libya OR south africa OR congo OR kenya OR liberia OR uganda OR algeria OR sudan OR morocco OR angola OR ghana OR madgascar OR cameroon OR niger OR botswana OR gabon OR nigeria OR mali OR zambia OR senegal OR chad OR somalia OR rwanda OR ethiopia OR egypt) AND (politics OR economy OR military OR culture OR society)",
     "domains": "nytimes.com, wsj.com, foxnews.com, ft.com, aljazeera.com, bbc.com, africanews.com, cnn.com, aljazeera.com, washingtonpost.com, npr.org"
   },
   {
