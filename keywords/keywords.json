@@ -11,7 +11,7 @@
   },
   {
     "slug": "europe",
-    "keywords": "asia AND (china OR people's republic of china OR xi jinping OR south korea OR yoon seok-yeol OR moon jae-in OR north korea OR kim jong-un OR japan OR shinzo abe OR fumio kishida OR indonesia OR india OR modi OR thailand OR philippines OR vietnam OR malaysia OR hong kong OR pakistan OR taiwan OR sri lanka OR cambodia OR burma OR laos OR bangladesh OR uzbekistan OR kryzgystan OR bhutan) AND (politics OR economy OR military OR culture OR society)",
+    "keywords": "europe AND (united kingdom OR britain OR france OR spain OR portugal OR germany OR switzerland OR czech republic OR austria OR poland OR hungary OR romania OR bulgaria OR greece OR ukraine OR russia OR estonia OR latvia OR finland OR sweden OR norway OR ireland OR italy OR albania OR hungary OR serbia) AND (politics OR economy OR military OR culture OR society)",
     "domains": "nytimes.com, wsj.com, foxnews.com, ft.com, aljazeera.com, bbc.com, english.chosun.com, japantimes.co.jp, asahi.com, chinadaily.com.cn"
   },
   {
