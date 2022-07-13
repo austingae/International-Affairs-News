@@ -1,9 +1,10 @@
 import React from 'react'
 import Link from 'next/link'
 
-const Articles = ({newsArticles}) => {
+const Articles = ({newsArticles, slug, pageNumber, potentialPageNumberArray}) => {
   return (
     <>
+    {/* using .map() to display the articles */}
     {
       newsArticles.map((article) => {
         return (
@@ -20,6 +21,17 @@ const Articles = ({newsArticles}) => {
             </button>
           </div>
         )
+      })
+    }
+
+    {/* Page Buttons */}
+    {
+      potentialPageNumberArray.map((pageNumber) => {
+        return (
+          <Link href={`/articles/${slug}--${pageNumber}`}>
+            <a>{pageNumber}</a>
+          </Link>
+        );
       })
     }
     </>
@@ -50,9 +62,6 @@ export async function getServerSideProps(pageContext) {
     }
   })
 
-  console.log(keywords);
-  console.log(domains);
-  
   //News API Data
   let newsAPIResponse = await fetch(`https://newsapi.org/v2/everything?` + 
   `q=${keywords}&` + 
@@ -79,9 +88,14 @@ export async function getServerSideProps(pageContext) {
     })
   })
 
+  //potentialPageNumberArray equals the potential page numbers from 1 to 10
+  let potentialPageNumberArray = [1,2,3,4,5];
   return {
     props: {
       newsArticles: newsArticles,
+      slug: slug,
+      pageNumber: pageNumber,
+      potentialPageNumberArray: potentialPageNumberArray,
     }
   }
 }

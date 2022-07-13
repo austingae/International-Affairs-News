@@ -7,7 +7,7 @@
   {
     "slug": "south-america",
     "keywords": "(argentina) OR (bolivia) OR (brazil) OR (chile) OR (colombia) OR (ecuador) OR (peru) OR (venezuela) AND (politics OR economy OR military OR culture OR society)",
-    "domains": "nytimes.com, wsj.com, foxnews.com, ft.com, aljazeera.com, batimes.com.ar, bbc.com, venezuelanalysis.com"
+    "domains": "nytimes.com, wsj.com, ft.com, aljazeera.com, batimes.com.ar, bbc.com, venezuelanalysis.com"
   },
   {
     "slug": "europe",
@@ -17,7 +17,7 @@
   {
     "slug": "middle-east",
     "keywords": "(middle east) AND (syria OR iraq OR iran OR lebanon OR egypt OR saudi arabia OR turkey OR israel OR palestine OR kuwait OR united arab emirates)",
-    "domains": "nytimes.com, wsj.com, foxnews.com, ft.com, aljazeera.com, bbc.com, tehrantimes.com, palestinechronicle.com"
+    "domains": "nytimes.com, wsj.com, ft.com, aljazeera.com, bbc.com, tehrantimes.com, palestinechronicle.com"
   },
   {
     "slug": "africa",
