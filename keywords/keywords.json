@@ -21,8 +21,8 @@
   },
   {
     "slug": "africa",
-    "keywords": "(africa OR djibouti OR seychelles OR democratic republic of the congo OR sierra leona OR libya OR south africa OR congo OR kenya OR liberia OR uganda OR algeria OR sudan OR morocco OR angola OR ghana OR madgascar OR cameroon OR niger OR botswana OR gabon OR nigeria OR mali OR zambia OR senegal OR chad OR somalia OR rwanda OR ethiopia OR egypt) AND (politics OR economy OR military OR culture OR society)",
-    "domains": "nytimes.com, wsj.com, foxnews.com, ft.com, aljazeera.com, bbc.com, africanews.com, cnn.com, aljazeera.com, washingtonpost.com, npr.org"
+    "keywords": "asia AND (china OR people's republic of china OR xi jinping OR south korea OR yoon seok-yeol OR moon jae-in OR north korea OR kim jong-un OR japan OR shinzo abe OR fumio kishida OR indonesia OR india OR modi OR thailand OR philippines OR vietnam OR malaysia OR hong kong OR pakistan OR taiwan OR sri lanka OR cambodia OR burma OR laos OR bangladesh OR uzbekistan OR kryzgystan OR bhutan) AND (politics OR economy OR military OR culture OR society)",
+    "domains": "nytimes.com, wsj.com, foxnews.com, ft.com, aljazeera.com, bbc.com, english.chosun.com, japantimes.co.jp, asahi.com, chinadaily.com.cn"
   },
   {
     "slug": "asia",
