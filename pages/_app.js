@@ -1,7 +1,12 @@
 import '../styles/globals/globals.css'
 import Link from 'next/link'
+import { useRouter } from 'next/router' //https://stackoverflow.com/questions/58013066/how-to-hide-navbar-header-in-login-page-in-nextjs
 
 function MyApp({ Component, pageProps }) {
+
+  const router = useRouter();
+  const pathName = router.pathname;
+
   return (
     <>
       <nav className='nav'>
@@ -12,10 +17,18 @@ function MyApp({ Component, pageProps }) {
           </div>
         </Link>
         <div className='nav__container'>
-          <a className='nav__link nav__link--margin-right'
-          onClick={() => {
-            document.getElementById('news-categories').scrollIntoView({behavior: "smooth"});
-          }}>Categories</a>
+          {pathName == '/' ?
+            <a className='nav__link nav__link--margin-right'
+              onClick={() => {
+                document.getElementById('news-categories').scrollIntoView({behavior: "smooth"});
+              }}>Categories</a>
+            :
+            <a className='nav__link nav__link--margin-right'
+            onClick={() => {
+              window.location.href='/';
+            }}
+            >Home</a>
+        }
         </div>
       </nav>
 
