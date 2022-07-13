@@ -16,7 +16,7 @@
   },
   {
     "slug": "middle-east",
-    "keywords": "(middle east OR cyprus OR lebanon OR syria OR iraq OR iran OR israel OR palestine OR palestinian OR jordan OR saudia arabia OR mohammed bin salman OR  kuwait OR qatar OR bahrain OR united arabs emirates OR UAE or oman OR yemen OR israeli apartheid OR syrian civil war OR iran-saudi rivalry OR yemeni civil war) AND (politics OR economy OR military OR culture OR society)",
+    "keywords": "(middle east OR cyprus OR lebanon OR syria OR iraq OR iran OR israel OR palestine OR palestinian OR jordan OR saudia arabia OR mohammed bin salman OR  kuwait OR qatar OR bahrain OR united arabs emirates OR UAE or oman OR yemen OR israeli apartheid OR syrian civil war OR iran-saudi rivalry OR yemeni civil war)",
     "domains": "nytimes.com, wsj.com, foxnews.com, ft.com, aljazeera.com, bbc.com, tehrantimes.com, timesofisrael.com, palestinechronicle.com"
   },
   {
