@@ -54,6 +54,12 @@ const CountryLogoSlider = () => {
             },
             1450: {
               perPage: 15,
+            },
+            1920: {
+              perPage: 18,
+            },
+            3000: {
+              perPage: 20,
             }
           }
         }}

@@ -4,10 +4,12 @@
   color: black;
   text-decoration: none;
 }
+
 .regionTemplate {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
 
   cursor: pointer;
 
@@ -17,6 +19,7 @@
   }
 
   .regionName {
+    width: 100px;
     margin-left: 1rem;
   }
 
@@ -25,16 +28,62 @@
   }
 }
 
-@media screen and (min-width: 725px) {
+@media screen and (min-width: 600px) {
   .regionTemplate {
+
     .regionLogo {
-      width: 65px;
-      height: 65px;
+      width: 60px;
+      height: 60px;
     }
 
     .regionName {
-      font-size: 1.15rem;
+      width: 110px;
+      font-size: 16px;
     }
   }
 }
 
+@media screen and (min-width: 1000px) {
+  .regionTemplate {
+
+    .regionLogo {
+      width: 70px;
+      height: 70px;
+    }
+
+    .regionName {
+      width: 120px;
+      font-size: 18px;
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .regionTemplate {
+
+    .regionLogo {
+      width: 80px;
+      height: 80px;
+    }
+
+    .regionName {
+      width: 140px;
+      font-size: 20px;
+    }
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .regionTemplate {
+
+    .regionLogo {
+      width: 90px;
+      height: 90px;
+    }
+
+    .regionName {
+      width: 180px;
+      font-size: 25px;
+    }
+  }
+}

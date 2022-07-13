@@ -13,7 +13,7 @@ const NewsCategories = () => {
       {/* News Categories by Region */}
       <section>
         <h4 className={styles.categoryTitle}>Regions</h4>
-        <div className={styles.regionSection}>
+        <div className={styles.regionCategory}>
           <NewsCategoryRegionTemplate path='/articles/north-america--1' regionLogo='/images/news-categories/regions/na.png' regionName='North America'/>
           <NewsCategoryRegionTemplate path='/articles/south-america--1' regionLogo='/images/news-categories/regions/sa.png' regionName='South America'/>
           <NewsCategoryRegionTemplate path='/articles/europe--1' regionLogo='/images/news-categories/regions/eu.png' regionName='Europe'/>
@@ -25,7 +25,7 @@ const NewsCategories = () => {
 
       {/* News Categories by Topics */}
       <h4 className={styles.categoryTitle}>Topics</h4>
-      <section className={styles.topicSection}>
+      <section className={styles.topicCategory}>
         <NewsCategoryTopicTemplate 
         path='/articles/us-china-competition--1'
         topicImage='/images/news-categories/topics/us-china-competition.jpg' 
