@@ -32,4 +32,19 @@
 .article .article__readMoreLink {
   color: black;
   text-decoration: none;
+}
+
+.pageNumberLinkContainer {
+  text-align: center;
+  margin-top: 4rem;
+}
+.pageNumberLinkContainer .pageNumberLink {
+  color: black;
+  text-decoration: none;
+}
+.pageNumberLinkContainer .pageNumberLinkWithMarginRight {
+  margin-right: 1rem;
+}
+.pageNumberLinkContainer .pageNumberLink:hover {
+  color: rgb(139, 217, 248);
 }/*# sourceMappingURL=news-article.module.css.map */

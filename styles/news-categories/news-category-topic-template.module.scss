@@ -1,4 +1,4 @@
-$light-blue-color: rgb(139,217,248);
+@use '../colorScheme';
 
 .topicLink {
   color: black;
@@ -24,7 +24,7 @@ $light-blue-color: rgb(139,217,248);
   }
 
   .topicName:hover {
-    color: $light-blue-color;
+    color: colorScheme.$light-blue-color;
   }
 }
 

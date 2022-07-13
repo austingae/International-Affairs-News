@@ -25,15 +25,17 @@ const Articles = ({newsArticles, slug, pageNumber, potentialPageNumberArray}) =>
     }
 
     {/* Page Buttons */}
-    {
-      potentialPageNumberArray.map((pageNumber) => {
-        return (
-          <Link key={pageNumber} href={`/articles/${slug}--${pageNumber}`}>
-            <a>{pageNumber}</a>
-          </Link>
-        );
-      })
-    }
+    <div className={styles.pageNumberLinkContainer}>
+      {
+        potentialPageNumberArray.map((pageNumber) => {
+          return (
+            <Link key={pageNumber} href={`/articles/${slug}--${pageNumber}`}>
+              <a className={`${styles.pageNumberLink} ${pageNumber < 5 ? styles.pageNumberLinkWithMarginRight : null}`}>{pageNumber}</a>
+            </Link>
+          );
+        })
+      }
+    </div>
     </>
   )
 }
