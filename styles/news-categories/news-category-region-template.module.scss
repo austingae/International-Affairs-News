@@ -1,4 +1,4 @@
-$light-blue-color: rgb(139,217,248);
+@use '../colorScheme';
 
 .regionLink {
   color: black;
@@ -21,7 +21,7 @@ $light-blue-color: rgb(139,217,248);
   }
 
   .regionName:hover {
-    color: $light-blue-color;
+    color: colorScheme.$light-blue-color;
   }
 }
 

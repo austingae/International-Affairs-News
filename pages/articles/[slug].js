@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 
+import styles from '../../styles/news-article/news-article.module.css'
 const Articles = ({newsArticles, slug, pageNumber, potentialPageNumberArray}) => {
   return (
     <>
@@ -8,15 +9,14 @@ const Articles = ({newsArticles, slug, pageNumber, potentialPageNumberArray}) =>
     {
       newsArticles.map((article) => {
         return (
-          <div key={article.title}>
-            <img src={article.urlToImage} style={{width: '200px'}}/>
-            <p>{article.formattedDate}</p>
-            <h3>{article.title}</h3>
-            <p>{article.description}</p>
-            <p>{article.source.name}</p>
-            <button>  
-              <a href={article.url} target="_blank" rel="noopener noreferrer">
-                Read More
+          <div className={styles.article} key={article.title}>
+            <img className={styles.article__image} src={article.urlToImage} />
+            <p className={styles.article__date}>{article.formattedDate}</p>
+            <h3 className={styles.article__title}>{article.title}</h3>
+            <p className={styles.article__description}>{article.description}</p>
+            <button className={styles.article__readMoreButton}>  
+              <a className={styles.article__readMoreLink} href={article.url} target="_blank" rel="noopener noreferrer">
+                Read More on {article.source.name}
               </a>
             </button>
           </div>
@@ -25,15 +25,17 @@ const Articles = ({newsArticles, slug, pageNumber, potentialPageNumberArray}) =>
     }
 
     {/* Page Buttons */}
-    {
-      potentialPageNumberArray.map((pageNumber) => {
-        return (
-          <Link href={`/articles/${slug}--${pageNumber}`}>
-            <a>{pageNumber}</a>
-          </Link>
-        );
-      })
-    }
+    <div className={styles.pageNumberLinkContainer}>
+      {
+        potentialPageNumberArray.map((pageNumber) => {
+          return (
+            <Link key={pageNumber} href={`/articles/${slug}--${pageNumber}`}>
+              <a className={`${styles.pageNumberLink} ${pageNumber < 5 ? styles.pageNumberLinkWithMarginRight : null}`}>{pageNumber}</a>
+            </Link>
+          );
+        })
+      }
+    </div>
     </>
   )
 }

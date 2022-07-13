@@ -1,5 +1,5 @@
+@use '../colorScheme';
 $primary-font: Montserrat;
-$light-blue-color: rgb(139,217,248);
 
 * {
   box-sizing: content-box;
@@ -42,7 +42,7 @@ $light-blue-color: rgb(139,217,248);
   }
 
   .nav__link:hover {
-    color: $light-blue-color;
+    color: colorScheme.$light-blue-color;
   }
 
   .nav__link--margin-right {
