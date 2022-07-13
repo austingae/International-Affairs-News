@@ -12,7 +12,7 @@
   {
     "slug": "europe",
     "keywords": "europe AND (united kingdom OR britain OR france OR spain OR portugal OR germany OR switzerland OR czech republic OR austria OR poland OR hungary OR romania OR bulgaria OR greece OR ukraine OR russia OR estonia OR latvia OR finland OR sweden OR norway OR ireland OR italy OR albania OR hungary OR serbia) AND (politics OR economy OR military OR culture OR society)",
-    "domains": "nytimes.com, wsj.com, foxnews.com, ft.com, aljazeera.com, bbc.com, english.chosun.com, japantimes.co.jp, asahi.com, chinadaily.com.cn"
+    "domains": "nytimes.com, wsj.com, ft.com, aljazeera.com, bbc.com, english.chosun.com, japantimes.co.jp, asahi.com, chinadaily.com.cn"
   },
   {
     "slug": "middle-east",
