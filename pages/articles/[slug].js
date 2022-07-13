@@ -29,8 +29,8 @@ const Articles = ({newsArticles, slug, pageNumber, potentialPageNumberArray}) =>
       {
         potentialPageNumberArray.map((pageNumber) => {
           return (
-            <Link key={pageNumber} href={`/articles/${slug}--${pageNumber}`}>
-              <a className={`${styles.pageNumberLink} ${pageNumber < 5 ? styles.pageNumberLinkWithMarginRight : null}`}>{pageNumber}</a>
+            <Link href={`/articles/${slug}--${pageNumber}`}>
+              <a className={`${styles.pageNumberLink} ${pageNumber < 5 ? styles.pageNumberLinkWithMarginRight : null}`} key={pageNumber}>{pageNumber}</a>
             </Link>
           );
         })
