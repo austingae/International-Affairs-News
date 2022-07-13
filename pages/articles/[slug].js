@@ -72,7 +72,7 @@ export async function getServerSideProps(pageContext) {
   `domains=${domains}&` +
   `pageSize=15&` + 
   `page=${pageNumber}&` + 
-  `apiKey=12fd877f04d64df1a09a3616222315ca`
+  `apiKey=c8bca453280c47ca9d79d26ceaf74003`
   );
 
   let newsAPIData = await newsAPIResponse.json();
