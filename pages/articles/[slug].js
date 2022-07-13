@@ -9,13 +9,14 @@ const Articles = ({newsArticles}) => {
         return (
           <div key={article.title}>
             <img src={article.urlToImage} style={{width: '200px'}}/>
+            <p>{article.formattedDate}</p>
             <h3>{article.title}</h3>
             <p>{article.description}</p>
             <p>{article.source.name}</p>
-            <button>
-              <Link href={article.url}>
-                <a>Read More</a>
-              </Link>
+            <button>  
+              <a href={article.url} target="_blank" rel="noopener noreferrer">
+                Read More
+              </a>
             </button>
           </div>
         )
@@ -52,13 +53,11 @@ export async function getServerSideProps(pageContext) {
     }
   })
 
-  console.log(keywords);
-
   //News API Data
   let newsAPIResponse = await fetch(`https://newsapi.org/v2/everything?` + 
   `q=${keywords}&` + 
   `language=en&` + 
-  `sortBy=relevancy&` + 
+  `sortBy=publishedAt&` + 
   `domains=${domains}&` +
   `pageSize=15&` + 
   `page=${pageNumber}&` + 
@@ -67,8 +66,18 @@ export async function getServerSideProps(pageContext) {
 
   let newsAPIData = await newsAPIResponse.json();
 
-  //newsArticles - an array that holds news articles
-  let newsArticles = newsAPIData.articles;
+  //rawNewsArticles - an array that holds news articles
+  let rawNewsArticles = newsAPIData.articles;
+
+  //Now, I am going to reformat the given date format to the date format I want.
+  let newsArticles = [];
+  rawNewsArticles.forEach((rawNewsArticle) => {
+    let formattedDate = (rawNewsArticle.publishedAt).split('T', 2)[0];
+    newsArticles.push({
+      ...rawNewsArticle,
+      formattedDate
+    })
+  })
 
   return {
     props: {
